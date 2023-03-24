@@ -1,0 +1,406 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+
+header{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:  #1E172F;
+  width: 100%;
+  font-size: 20px;
+  padding: 0.5% 3%;
+}
+
+.navdelheader{
+  width: 40%;
+}
+
+.navdelheader ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+}
+
+
+.navdelheader ul a {
+  text-decoration: none;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.navdelheader ul li {
+  display: flex;
+  justify-content: center;
+  width: 16%;
+}
+
+
+.download{
+background-image:linear-gradient(80deg, rgba(163,71,255,1) 10%, rgba(0,138,255,1) 100%);
+border-radius: 10px;
+padding: 0 ;
+width: 18%;
+border: none;
+}
+
+/*primera seccion*/
+
+.first-section{
+  display: flex;
+  flex-direction: row;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.text-first-section{
+  box-sizing: border-box;
+  padding: 5% 4%;
+  background-color: rgb(46, 37, 80);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.product-page{
+  font-size: 70px;
+  color: white;
+  font-weight:bold;
+}
+
+.Text1{
+  color: white;
+  font-weight: 300%;
+  width: 50%;
+}
+
+
+.botones{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: solid 1px grey;
+  width: 40%;
+  padding: 1% 0;
+  border-radius:10px;
+  height: 10%;
+}
+
+.button1{
+  background-color: rgb(255, 255, 255);
+  color: green;
+  padding: 5px;
+  width: 45%;
+  border-radius:10px;
+  height: 100%;
+}
+.button2{
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  width: 45%;
+  border-radius:10px;
+  height: 100%;
+}
+button a{
+  text-decoration: none;
+  color: black;
+}
+
+.telefono{
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 9% 5% 3%;
+  background-image: url(../images/inicio.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: flex-end;
+}
+
+.imagen-telefono{
+  width: 220px;
+  height: 450px;
+}
+
+/* Segunda seccion*/
+
+.second-secction {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1% 10%;
+  margin-top: 2%;
+}
+.tittle{
+  font-weight: 500;
+  font-size: 350%;
+  color: #f41486;
+  height: 20vh;
+}
+.other{
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding: 0% 5%;
+}
+.second-part-image{
+  width: 42%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42%;
+}
+.laptop{
+  width: 42%;
+}
+.second-part-text{
+  padding: 2%;
+  width: 34%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-bottom: 8%;
+}
+.second-part-text h6{
+  margin-bottom: 10%;
+  font-size: 50px;
+  color: #f41687  ;
+  font-weight: 100;
+}
+.second-part-text h5{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 30px;
+  color: #f41687  ;
+  font-weight: 100;
+}
+.second-part-menu li{
+  list-style-position: inside;
+  margin-top: 5%;
+}
+.gradient1{
+  background: linear-gradient(to right, #c24f8a, #f41687);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Tercera Parte */
+
+.third-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(30, 23, 47);
+  color: white;
+}
+.titulo-plans{
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+}
+.text-plans{
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+
+/* Cuarta Seccion */
+
+.baja{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(30, 23, 47);
+  color: white;
+  padding: 3% 20%;
+  flex-wrap: wrap;
+}
+.hoja{
+  width: 50px;
+  height: 50px;
+
+}
+.costo{
+  text-align: center;
+}
+
+.etiquetas{
+  width: 25%;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  justify-content: space-between;
+  /* box-shadow: 2px 2px 5px 5px; */
+}
+
+
+.encabezado{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 3vh;
+  font-weight: 700;
+  height: 30%;
+  padding: 4%;
+  align-items: center;
+}
+
+
+.contenido{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  height: 30%;
+}
+.contenido ul li{
+  list-style: none;
+}
+
+.lorem{
+  box-sizing: border-box;
+  display: flex;
+  text-align: justify;
+  width: 100%;
+  padding: 0 10%;
+  /* border: slid 2px greenyellow; */
+}
+
+.boton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15%;
+  background-color:white;
+  padding: 15px;
+  border-end-start-radius: 10px;
+  border-end-end-radius: 10px;
+}
+
+button{
+  width: 100px;
+  height: 35px;
+  background-color: rgb(202, 27, 109);
+  color: white; 
+}
+
+/* Footer */
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 5%;
+  box-sizing: border-box;
+}
+.imagenesfooter{
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+}
+.imagenesfooter img{
+  width: 20px;
+}
+.footer span{
+  color: #f41486;
+}
+
+/* ----------------------------- Responsive ---------------------------------------- */
+
+@media (max-width: 1173px) {
+  /* … */
+  .navdelheader{
+    width: 50%;
+  }
+  .botones{
+    width: 60%;
+  }
+  .etiquetas{
+    width: 30%;
+  }
+}
+@media (max-width: 938px) {
+  /* … */
+  .baja{
+    justify-content: center;
+  }
+  .navdelheader{
+    width: 65%;
+  }
+  .botones{
+    width: 80%;
+  }
+  .etiquetas{
+    width: 47%;
+    padding: 0 1%;
+  }
+  .second-part-image{
+    display: none;
+  }
+  .second-part-text{
+    width: 70%;
+  }
+}
+@media (max-width: 728px) {
+  header{
+    flex-direction: column;
+  }
+  .telefono{
+    display: none;
+  }
+  .text-first-section{
+    width: 100%;
+    height: 40vh;
+  }
+  .navdelheader{
+    padding: 2% 0;
+    width: 100%;
+  }
+  .product-page br{
+display: none;
+  }
+  .tittle {
+    font-size: 250%;
+    width: 100%;
+    text-align: center;
+  }
+  .imagenesfooter{
+    display: none;
+  }
+}
+@media (max-width: 480px){
+  .etiquetas{
+    width: 60%;
+  }
+  header{
+    padding: none;
+  }
+  .baja{
+    padding: 0;
+    justify-content: center;
+  }
+  .tittle {
+    font-size: 200%;
+    width: 100%;
+    text-align: center;
+  }
+}
